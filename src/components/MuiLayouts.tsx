@@ -1,9 +1,14 @@
-import { Box } from "@mui/material";
+import { Box, Divider, Stack } from "@mui/material";
 import React from "react";
 
 const MuiLayouts = () => {
   return (
-    <>
+    <Stack
+      direction="row"
+      border="1px solid"
+      spacing={2}
+      divider={<Divider orientation="vertical" flexItem />}
+    >
       <Box
         sx={{
           backgroundColor: "primary.main",
@@ -27,7 +32,7 @@ const MuiLayouts = () => {
       >
         Code Evolution
       </Box>
-    </>
+    </Stack>
   );
 };
 
