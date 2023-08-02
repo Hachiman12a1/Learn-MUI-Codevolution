@@ -8,6 +8,7 @@ import MuiBreadcrumbs from "./components/MuiBreadcrumbs";
 import MuiButton from "./components/MuiButton";
 import MuiCard from "./components/MuiCard";
 import MuiCheckBox from "./components/MuiCheckBox";
+import MuiChip from "./components/MuiChip";
 import MuiDrawer from "./components/MuiDrawer";
 import MuiImageList from "./components/MuiImageList";
 import MuiLayouts from "./components/MuiLayouts";
@@ -46,7 +47,8 @@ function App() {
       {/* <MuiBottomNavigation /> */}
       {/* <MuiAvatar /> */}
       {/* <MuiBadge /> */}
-      <MuiList />
+      {/* <MuiList /> */}
+      <MuiChip />
     </div>
   );
 }
