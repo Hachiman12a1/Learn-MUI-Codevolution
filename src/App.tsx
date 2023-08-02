@@ -34,6 +34,7 @@ import MuiTextField from "./components/MuiTextField";
 import MuiTooltip from "./components/MuiTooltip";
 import MuiTypography from "./components/MuiTypography";
 import MuiPicker from "./components/MuiPicker";
+import MuiDateRangePicker from "./components/MuiDateRangePicker";
 
 function App() {
   return (
@@ -70,7 +71,8 @@ function App() {
         {/* <MuiProgress /> */}
         {/* <MuiSkeleton /> */}
         {/* <MuiLoadingButton /> */}
-        <MuiPicker />
+        {/* <MuiPicker /> */}
+        <MuiDateRangePicker />
       </div>
     </LocalizationProvider>
   );
