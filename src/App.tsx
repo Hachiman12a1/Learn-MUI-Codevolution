@@ -36,6 +36,7 @@ import MuiTypography from "./components/MuiTypography";
 import MuiPicker from "./components/MuiPicker";
 import MuiDateRangePicker from "./components/MuiDateRangePicker";
 import MuiTabs from "./components/MuiTabs";
+import MuiTimeline from "./components/MuiTimeline";
 
 function App() {
   return (
@@ -74,7 +75,8 @@ function App() {
         {/* <MuiLoadingButton /> */}
         {/* <MuiPicker /> */}
         {/* <MuiDateRangePicker /> */}
-        <MuiTabs />
+        {/* <MuiTabs /> */}
+        <MuiTimeline />
       </div>
     </LocalizationProvider>
   );
