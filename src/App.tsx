@@ -37,6 +37,7 @@ import MuiPicker from "./components/MuiPicker";
 import MuiDateRangePicker from "./components/MuiDateRangePicker";
 import MuiTabs from "./components/MuiTabs";
 import MuiTimeline from "./components/MuiTimeline";
+import MuiMasonry from "./components/Masonry";
 
 function App() {
   return (
@@ -76,7 +77,8 @@ function App() {
         {/* <MuiPicker /> */}
         {/* <MuiDateRangePicker /> */}
         {/* <MuiTabs /> */}
-        <MuiTimeline />
+        {/* <MuiTimeline /> */}
+        <MuiMasonry />
       </div>
     </LocalizationProvider>
   );
