@@ -40,6 +40,7 @@ import MuiTimeline from "./components/MuiTimeline";
 import MuiMasonry from "./components/Masonry";
 import MuiResponsiveness from "./components/MuiResponsiveness";
 import { ThemeProvider, colors, createTheme } from "@mui/material";
+import MuiDataGrid from "./components/MuiDatagrid";
 
 const customTheme = createTheme({
   status: {
@@ -97,7 +98,8 @@ function App() {
           {/* <MuiTabs /> */}
           {/* <MuiTimeline /> */}
           {/* <MuiMasonry /> */}
-          <MuiResponsiveness />
+          {/* <MuiResponsiveness /> */}
+          <MuiDataGrid />
         </div>
       </LocalizationProvider>
     </ThemeProvider>
